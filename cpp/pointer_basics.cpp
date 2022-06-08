@@ -36,5 +36,22 @@ int main() {
         cout << "value: " << i[arr] << endl;
     }
 
+    cout << "arr: " << (arr) << endl;
+    cout << "&arr: " << (&arr) << endl;
+    
+    cout << "arr+1: " << (arr+1) << endl;
+    cout << "&arr+1: " << (&arr+1) << endl;
+
+    // check address of each of element of array
+    for(int i=0; i<num_elems+20; i++) {
+        cout << "address of arr+" << i << ": " << (arr+i) << endl; 
+    }
+
+    cout << endl;
+    // check address of each of element of array
+    for(int i=0; i<num_elems; i++) {
+        cout << "address of &arr+" << i << ": " << (&arr+i) << endl; 
+    }
+
     return 0;
 }
