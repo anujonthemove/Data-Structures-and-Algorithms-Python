@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 
+
 [dev-packages]
 flake8 = "*"
 black = "*"
@@ -13,6 +14,8 @@ ssh-config = "*"
 detect-secrets = "*"
 pre-commit = "*"
 isort = "*"
+black = {extras = ["jupyter"], version = "*"}
+flake8-tabs = "*"
 
 [requires]
 python_version = "3.8"
