@@ -5,4 +5,4 @@ class BinaryTreeNode:
         self.right = None
 
     def __repr__(self) -> str:
-        return "<Node: %s>" % self.__data
+        return "<Node: %s>" % self.data
