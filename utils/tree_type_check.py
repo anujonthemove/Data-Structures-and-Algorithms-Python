@@ -1,3 +1,6 @@
+from utils.tree_properties import count_nodes
+
+
 class TreeTypeCheck:
     @staticmethod
     def is_full_tree(root):
@@ -78,17 +81,3 @@ class TreeTypeCheck:
         return TreeTypeCheck.is_complete(
             root.left, 2 * index + 1, num_nodes
         ) and TreeTypeCheck.is_complete(root.right, 2 * index + 2, num_nodes)
-
-
-def calculate_depth(node):
-    depth = 0
-    while node:
-        depth += 1
-        node = node.left
-    return depth
-
-
-def count_nodes(root):
-    if root is None:
-        return 0
-    return 1 + count_nodes(root.left) + count_nodes(root.right)
