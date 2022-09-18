@@ -52,7 +52,15 @@ class TreeTypeCheck:
         ) and TreeTypeCheck.is_perfect_using_depth(root.right, depth, level + 1)
 
     @staticmethod
-    def is_perfect_using_node_count(root):
+    def is_perfect_using_length(root):
+        """The number of nodes here should be the power of 2
+
+        Args:
+            root (_type_): Tree
+
+        Returns:
+            bool: True if Tree is perfect. False otherwise.
+        """
         count = count_nodes(root)
         return count and (not (count & (count - 1)))
         return (count & count + 1) == 0
@@ -81,3 +89,35 @@ class TreeTypeCheck:
         return TreeTypeCheck.is_complete(
             root.left, 2 * index + 1, num_nodes
         ) and TreeTypeCheck.is_complete(root.right, 2 * index + 2, num_nodes)
+
+    @staticmethod
+    def is_complete_using_level_order(root):
+        if root is None:
+            return True
+
+        queue = []
+        queue.append(root)
+
+        flag = False
+
+        while len(queue) > 0:
+
+            node = queue.pop(0)
+
+            if flag and (node.left or node.right):
+                return False
+
+            if node.left is None and node.right is not None:
+                return False
+
+            if node.left is not None:
+                queue.append(node.left)
+            else:
+                flag = True
+
+            if node.right is not None:
+                queue.append(node.right)
+            else:
+                flag = True
+
+        return True
