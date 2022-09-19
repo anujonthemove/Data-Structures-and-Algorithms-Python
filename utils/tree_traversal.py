@@ -1,3 +1,14 @@
+"""
+### References
+
+1. Check if tree is complete:
+*  https://www.techiedelight.com/check-given-binary-tree-complete-binary-tree-not/
+
+2. Printing Trees: 
+* https://stackoverflow.com/questions/34012886/print-binary-tree-level-by-level-in-python
+"""
+
+
 from utils.tree_properties import get_height
 
 
