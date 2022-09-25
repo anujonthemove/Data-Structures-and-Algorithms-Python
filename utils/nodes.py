@@ -1,4 +1,4 @@
-class BinaryTreeNode:
+class BinaryTreeNode(object):
     def __init__(self, data) -> None:
         self.data = data
         self.left = None
@@ -6,3 +6,9 @@ class BinaryTreeNode:
 
     def __repr__(self) -> str:
         return "<Node: %s>" % self.data
+
+
+class AVLTreeNode(BinaryTreeNode):
+    def __init__(self, data) -> None:
+        self.height = 1
+        BinaryTreeNode.__init__(self, data)
