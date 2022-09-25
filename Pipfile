@@ -8,6 +8,7 @@ jupyter = "*"
 ipython = {extras = ["all"], version = "*"}
 jupyter-server = "*"
 ipykernel = "*"
+pdoc3 = "*"
 
 [dev-packages]
 flake8 = "*"
