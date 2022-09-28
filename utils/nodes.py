@@ -1,3 +1,7 @@
+# References
+# 1. https://www.geeksforgeeks.org/python-access-parent-class-attribute/
+
+
 class BinaryTreeNode(object):
     def __init__(self, data) -> None:
         self.data = data
