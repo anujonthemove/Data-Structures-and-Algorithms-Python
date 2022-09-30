@@ -16,3 +16,10 @@ class AVLTreeNode(BinaryTreeNode):
     def __init__(self, data) -> None:
         self.height = 1
         BinaryTreeNode.__init__(self, data)
+
+
+class BTreeNode(object):
+    def __init__(self, leaf=False) -> None:
+        self.leaf = leaf
+        self.keys = []
+        self.child = []
