@@ -2,6 +2,15 @@
 # 1. https://www.geeksforgeeks.org/python-access-parent-class-attribute/
 
 
+class SinglyLinkedListNode(object):
+    def __init__(self, data) -> None:
+        self.data = data
+        self.next = None
+
+    def __repr__(self) -> str:
+        return "<Node: %s>" % self.data
+
+
 class BinaryTreeNode(object):
     def __init__(self, data) -> None:
         self.data = data
