@@ -1,4 +1,6 @@
 # For graph built using adjacency lists
+## References
+# 1. https://www.geeksforgeeks.org/count-number-edges-undirected-graph/
 
 
 class GraphPropertiesAdjList:
