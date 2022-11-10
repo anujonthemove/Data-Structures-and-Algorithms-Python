@@ -34,7 +34,7 @@ class DisjointSetOptimized:
 
     def find(self, k):
         if self.parent[k] == k:
-            return k
+            return self.parent[k]
         else:
             root = self.find(self.parent[k])
             self.parent[k] = root
