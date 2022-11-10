@@ -2,6 +2,8 @@
 ## References
 # 1. https://www.geeksforgeeks.org/count-number-edges-undirected-graph/
 
+import operator
+
 
 class GraphPropertiesAdjList:
     @staticmethod
@@ -19,3 +21,10 @@ class GraphPropertiesAdjList:
     def print_graph(graph):
         for k, v in graph.items():
             print(f"{k}: {v}")
+
+
+class WeightedGraphPropertiesAdjList:
+    @staticmethod
+    def num_vertices_weighted(graph):
+        get_nodes = operator.itemgetter(0, 1)
+        return max(max(list(map(get_nodes, graph)))) + 1
