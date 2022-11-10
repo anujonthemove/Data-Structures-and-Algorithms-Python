@@ -10,6 +10,7 @@ jupyter-server = "*"
 ipykernel = "*"
 pdoc3 = "*"
 networkx = "*"
+data-structures-and-algorithms-python = {editable = true, path = "."}
 
 [dev-packages]
 flake8 = "*"
