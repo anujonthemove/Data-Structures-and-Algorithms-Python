@@ -36,3 +36,12 @@ class WeightedGraphAdjList:
 
     def insert_weighted_node(self, u, v, w):
         self.graph.append([u, v, w])
+
+
+class GraphAdjMatrix:
+    def __init__(self, num_vertices):
+        self.num_vertices = num_vertices
+        self.graph = [
+            [0 for column in range(self.num_vertices)]
+            for row in range(self.num_vertices)
+        ]
