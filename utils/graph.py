@@ -1,5 +1,9 @@
 from collections import defaultdict
 
+# To-do:
+# 1.
+#
+
 
 class GraphAdjList:
     """
@@ -15,6 +19,7 @@ class GraphAdjList:
     def insert_node(self, u, v):
         self.graph[u].append(v)
 
+    # adjacency list representation of graph where we do not have to add the backward node
     def insert_node_bothways(self, u, v):
         self.graph[u].append(v)
         self.graph[v].append(u)
@@ -28,7 +33,7 @@ class GraphAdjList:
 #     def insert_weighted_node(self, u, v, w):
 #         self.graph[u][v] = w
 
-
+# weighted adjacencey list representation
 class WeightedGraphAdjList:
     def __init__(self):
         # self.num_vertices = num_vertices
@@ -38,6 +43,7 @@ class WeightedGraphAdjList:
         self.graph.append([u, v, w])
 
 
+# adjacency matrix representation
 class GraphAdjMatrix:
     def __init__(self, num_vertices):
         self.num_vertices = num_vertices
