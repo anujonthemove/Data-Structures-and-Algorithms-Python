@@ -16,11 +16,11 @@ class GraphAdjList:
 
     # In this representation, one needs to manually add the forward and backward node
 
-    def insert_node(self, u, v):
+    def insert_node_directed(self, u, v):
         self.graph[u].append(v)
 
     # adjacency list representation of graph where we do not have to add the backward node
-    def insert_node_bothways(self, u, v):
+    def insert_node_undirected(self, u, v):
         self.graph[u].append(v)
         self.graph[v].append(u)
 
