@@ -10,6 +10,16 @@ class GraphPropertiesAdjList:
     def num_vertices(graph):
         return max(graph) + 1
 
+    def num_vertices_updated(graph):
+        num_nodes = -1
+        for i in graph:
+            num_nodes = i
+            for j in graph[i]:
+                if j > i:
+                    num_nodes = j
+
+        return num_nodes + 1
+
     @staticmethod
     def num_edges(graph):
         count = 0
