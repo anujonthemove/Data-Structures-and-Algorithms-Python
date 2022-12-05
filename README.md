@@ -18,3 +18,6 @@
 - [ ] Connected components
     - [ ] Using Disjoint Set Union
 - [ ] Find all topological sorts of a DAG
+- [ ] Dijkstra's using Adjacency List representation
+  - [ ] Using Min Heap 
+  - [ ] Using Set?
