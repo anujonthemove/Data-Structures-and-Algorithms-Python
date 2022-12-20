@@ -85,6 +85,11 @@
 2. Binary Search
 
 ### Sorting Algorithms
+1. Insertion Sort
+2. Bubble Sort
+3. Merge Sort
+4. Quick Sort
+
 
 ### Recursion
 
@@ -124,3 +129,7 @@
 - [ ] Dijkstra's using Adjacency List representation
   - [ ] Using Min Heap 
   - [ ] Using Set?
+
+
+#### Sorting Algorithms
+- [ ] Tim Sort
