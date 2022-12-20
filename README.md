@@ -60,7 +60,25 @@
 2. Disjoint Set Union Find Optimized
 
 ### Graph
-
+1. Graph representation using Adjacency Matrix
+2. Graph representation using Adjacency List
+3. Graph Traversals
+  1. Depth First Traversal
+  2. Breadth First Traversal
+4. Types of edges in graph using DFS
+5. Detect cycle in directed graph using dfs
+6. Detect cycle in undirected graph using bfs
+7. Detect cycle in undirected graph using dfs
+8. Detect cycle in undirected graph using disjoint set
+9. Minimum Spanning Tree using Kruskal's Algorithm
+10. Minimum Spanning Tree using Prim's Algorithm
+11. Minimum Spanning Tree using Prim's Algorithm using Priority Queue
+12. Topological Sorting
+13. Topological Sorting using Kahn's Algorithm
+14. Connected Components
+15. Bridges in graph
+16. Articulation point in graph
+17. Dijkstra's Single Source Shortest Path Algorithm Naive implementation
 
 ### Searching Algorithms
 
@@ -97,6 +115,7 @@
 - [ ] Red Black Tree
 
 #### Graphs
+- [ ] Detect Cycle in directed graph using DFS and Colors
 - [ ] Connected components
     - [ ] Using Disjoint Set Union
 - [ ] Find all topological sorts of a DAG
