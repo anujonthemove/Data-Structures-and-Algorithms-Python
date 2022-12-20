@@ -49,9 +49,14 @@
 7. Level Order Binary Tree Traversal
 
 ### Heap
-
+1. Understanding Heaps using heapq in Python
+2. Binary Heap using heapq
+3. Binary Heap implementation using Python List
+4. Max Heap
+5. Min Heap
 
 ### Disjoint Set Union Find
+
 
 ### Graph
 
