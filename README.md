@@ -81,6 +81,8 @@
 17. Dijkstra's Single Source Shortest Path Algorithm Naive implementation
 
 ### Searching Algorithms
+1. Linear Search
+2. Binary Search
 
 ### Sorting Algorithms
 
