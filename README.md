@@ -11,7 +11,11 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
 
-!! More to be updated
+-> More to be updated
+
+-> I am open to discussions & suggestions about this repo.
+
+-> A lot more needs to be done here
 
 ### Linked List 
 
@@ -108,6 +112,8 @@ ___
 #### General
 - [ ] Code restructure
 - [ ] Update readme with links
+- [ ] Document code & explanation
+- [ ] Correct code where ever necessary
 
 #### Circular Linked List
 - [ ] Complete implementation
