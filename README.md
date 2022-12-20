@@ -11,7 +11,10 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
 
+
+
 ### Linked List
+
 0. Linked List Template
 1. Singly Linked List
 2. Doubly Linked List
@@ -91,11 +94,13 @@
 4. Quick Sort
 
 
-### Recursion
+### Dynamic Programming (Recursion, Recursion + Memoization, Tabulation, Tabulation + Space Optimization)
+1. Fibonacci Series 
+2. Nth Stairs 
+3. Minimum Cost climbing stairs 
+4. Coin change
 
-### Dynamic Programming
-
-
+___
 
 
 ### To-do
@@ -121,7 +126,7 @@
 - [ ] B+ Tree
 - [ ] Red Black Tree
 
-#### Graphs
+#### Graph
 - [ ] Detect Cycle in directed graph using DFS and Colors
 - [ ] Connected components
     - [ ] Using Disjoint Set Union
@@ -133,3 +138,9 @@
 
 #### Sorting Algorithms
 - [ ] Tim Sort
+
+#### Divide & Conquer
+
+#### Branch & Bound
+
+#### Trie
