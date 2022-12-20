@@ -11,9 +11,9 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
 
+!! More to be updated
 
-
-### Linked List
+### Linked List 
 
 0. Linked List Template
 1. Singly Linked List
@@ -104,6 +104,10 @@ ___
 
 
 ### To-do
+
+#### General
+- [ ] Code restructure
+- [ ] Update readme with links
 
 #### Circular Linked List
 - [ ] Complete implementation
