@@ -56,9 +56,11 @@
 5. Min Heap
 
 ### Disjoint Set Union Find
-
+1. Disjoint Set Union Find Naive
+2. Disjoint Set Union Find Optimized
 
 ### Graph
+
 
 ### Searching Algorithms
 
