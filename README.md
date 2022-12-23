@@ -1,11 +1,18 @@
-<h1 align="center">
+# Data Structures & Algorithms in Python
+
+<a href="https://learnpytorch.io">
+  <img src="https://raw.githubusercontent.com/anujonthemove/Data-Structures-and-Algorithms-Python/main/assets/images/dsa.png" width=900 alt="Data Structure and Algorithms in Python cover photo with different sections">
+</a>
+
+
+<!-- <h1 align="center">
   <br>
   <img src="assets/images/dsa.png" width="1000">
   <br>
-  Data Structures & Algorithms
+  
   <br>
 </h1>
-
+ -->
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
