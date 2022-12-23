@@ -1,0 +1,56 @@
+site_name: Data Structures & Algorithms in Python
+site_description: Learn important machine learning concepts hands-on by writing PyTorch code.
+
+repo_url: https://github.com/anujonthemove/Data-Structures-and-Algorithms-Python/
+repo_name: anujonthemove/Data-Structures-and-Algorithms-Python
+
+
+
+# Configuration
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.tracking
+    - navigation.tabs.sticky
+    # - navigation.sections
+    # - navigation.expand
+
+  palette:
+    primary: yellow
+    # accent: indigo
+  font:
+    text: Roboto Mono
+
+    # # Palette toggle for light mode
+    # - scheme: default
+    #   toggle:
+    #     icon: material/brightness-7 
+    #     name: Switch to dark mode
+
+    # # Palette toggle for dark mode
+    # - scheme: slate
+    #   toggle:
+    #     icon: material/brightness-4
+    #     name: Switch to light mode
+
+
+markdown_extensions:
+  - meta
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.magiclink
+  - pymdownx.snippets:
+      # base_path: docs/snippets
+
+plugins:
+  - mkdocs-jupyter:
+  - search
+
+nav:
+  - Home: 'Data-Structures-and-Algorithms-Python/README.md'
+  - 'Linked List':
+    - 'Singly Linked List': 'Data-Structures-and-Algorithms-Python/notebooks/linked-list/singly-linked-list.ipynb' 
