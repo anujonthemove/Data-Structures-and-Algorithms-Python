@@ -11,6 +11,10 @@ ipykernel = "*"
 pdoc3 = "*"
 networkx = "*"
 data-structures-and-algorithms-python = {editable = true, path = "."}
+mkdocs = "*"
+mkdocs-jupyter = "*"
+jupyter-contrib-nbextensions = "*"
+nbconvert = "*"
 
 [dev-packages]
 flake8 = "*"
