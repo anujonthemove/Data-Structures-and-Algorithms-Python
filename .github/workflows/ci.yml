@@ -30,10 +30,10 @@ jobs:
       - run: pip install mkdocs-jupyter
       - run: pip install pillow cairosvg
       - run: pip install jupyter_contrib_nbextensions
-      # - run: mkdir -p docs/notebooks/recursion
+      - run: mkdir -p docs/notebooks/
       # - run: cp -r notebooks/recursion/ docs/notebooks/
       # - run: cp -r notebooks/recursion/bubble-sort.ipynb docs/
-      - run: cp -r notebooks/recursion/* docs/
+      - run: cp -r notebooks/recursion/* docs/notebooks/
       - run: cp README.md docs/index.md
       # - run: mkdocs gh-deploy --force
       - run: mkdocs gh-deploy --force --clean --verbose
