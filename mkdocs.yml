@@ -53,4 +53,4 @@ plugins:
 nav:
   - Home: 'index.md'
   - 'Recursion':
-    - 'Bubble Sort': 'notebooks/bubble-sort/bubble-sort.ipynb' 
+    - 'Bubble Sort': 'notebooks/recursion/bubble-sort/bubble-sort.ipynb' 
