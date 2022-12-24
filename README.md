@@ -104,12 +104,22 @@
 3. Merge Sort
 4. Quick Sort
 
+### Recursion
+0. Recursion overview/template
+1. Factorial
+2. Power of 2
+3. Print Count
+4. Say Digit
+5. Fibonacci Number
+6. Bubble Sort
+
 
 ### Dynamic Programming (Recursion, Recursion + Memoization, Tabulation, Tabulation + Space Optimization)
 1. Fibonacci Series 
 2. Nth Stairs 
 3. Minimum Cost climbing stairs 
 4. Coin change
+
 
 ___
 
@@ -155,6 +165,11 @@ ___
 
 #### Sorting Algorithms
 - [ ] Tim Sort
+
+#### Recursion
+- [ ] Insertion Sort
+- [ ] Selection Sort
+
 
 #### Divide & Conquer
 
