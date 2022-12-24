@@ -52,5 +52,21 @@ plugins:
 
 nav:
   - Home: 'index.md'
+  - 'Linked List':
+  
+    - '0. Linked List Template': 'notebooks/linked-list-template.ipynb'
+    - '1. Singly Linked List': 'notebooks/singly-linked-list.ipynb'
+    - '2. Doubly Linked List': 'notebooks/doubly-linked-list.ipynb'
+  - 'Stack':
+
+    - '1. Stack using Python List': 'notebooks/stack-using-list.ipynb'
+    - '2. Stack using Linked List': 'notebooks/stack-using-linked-list.ipynb'
+    - '3. Infix to Postfix expression': 'notebooks/infix-to-postfix-conversion.ipynb'
+    - '4. Infix to Prefix expression': 'notebooks/infix-to-prefix-expression.ipynb'
+    - '5. Postfix to Infix expression': 'notebooks/postfix-to-infix-expression.ipynb'
+    - '6. Prefix to Infix expression': 'notebooks/prefix-to-infix-expression.ipynb'
+    - '7. Evaluation of Postfix expression': 'notebooks/evaluation-of-postfix-expression.ipynb'
+    - '8. Evaluation of Prefix expression': 'notebooks/evaluation-of-prefix-expression.ipynb'
+
   - 'Recursion':
     - 'Bubble Sort': 'notebooks/bubble-sort.ipynb' 
