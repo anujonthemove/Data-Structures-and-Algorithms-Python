@@ -52,5 +52,102 @@ plugins:
 
 nav:
   - Home: 'index.md'
+
+  - 'Linked List':
+  
+    - '0. Linked List Template': 'notebooks/linked-list/linked-list-template.ipynb'
+    - '1. Singly Linked List': 'notebooks/linked-list/singly-linked-list.ipynb'
+    - '2. Doubly Linked List': 'notebooks/linked-list/doubly-linked-list.ipynb'
+  
+  - 'Stack':
+
+    - '1. Stack using Python List': 'notebooks/stack/stack-using-list.ipynb'
+    - '2. Stack using Linked List': 'notebooks/stack/stack-using-linked-list.ipynb'
+    - '3. Infix to Postfix expression': 'notebooks/stack/infix-to-postfix-conversion.ipynb'
+    - '4. Infix to Prefix expression': 'notebooks/stack/infix-to-prefix-expression.ipynb'
+    - '5. Postfix to Infix expression': 'notebooks/stack/postfix-to-infix-expression.ipynb'
+    - '6. Prefix to Infix expression': 'notebooks/stack/prefix-to-infix-expression.ipynb'
+    - '7. Evaluation of Postfix expression': 'notebooks/stack/evaluation-of-postfix-expression.ipynb'
+    - '8. Evaluation of Prefix expression': 'notebooks/stack/evaluation-of-prefix-expression.ipynb'
+
+  - 'Queue':
+
+    - '1. Linear Queue using Python List': 'notebooks/queue/linear-queue-using-list.ipynb'
+    - '2. Linear Queue using Linked List': 'notebooks/queue/linear-queue-using-linked-list.ipynb'
+    - '3. Double Ended Queue using Python List': 'notebooks/queue/double-ended-queue-using-list.ipynb'
+    - '4. Double Ended Queue using Doubly Linked List': 'notebooks/queue/double-ended-queue-using-doubly-linked-list.ipynb'
+    - '5. Circular Queue using Python List': 'notebooks/queue/circular-queue-using-list.ipynb'
+    - '6. Circular Queue using Circular Linked List': 'notebooks/queue/circular-queue-using-circular-linked-list.ipynb'
+    - '7. Circular Double Ended Queue using Doubly Linked List': 'notebooks/queue/circular-double-ended-queue-using-doubly-linked-list.ipynb'
+
+  - 'Tree':
+
+    - '1. General Binary Tree': 'notebooks/tree/general-binary-tree.ipynb'
+    - '2. Build a Simple Binary Tree': 'notebooks/tree/simple-binary-tree-explicit-node-addition.ipynb'
+    - '3. Build a Simple Binary Tree from user input': 'notebooks/tree/simple-binary-tree-using-recursion.ipynb'  
+    - '4. Binary Tree Types': 'notebooks/tree/binary-tree-types.ipynb'
+    - '5. Binary Search Tree': 'notebooks/tree/binary-search-tree.ipynb'
+    - '6. Complete Binary Tree from an array': 'notebooks/tree/complete-binary-tree-from-array.ipynb'
+    - '7. AVL Tree': 'notebooks/tree/avl-tree.ipynb'
+    - '8. Depth First Traversals (Inorder, Preorder and Postorder)': 'notebooks/tree/depth-first-traversal.ipynb'
+    - '9. Level Order Binary Tree Traversal': 'notebooks/tree/breadth-first-traversal.ipynb'
+
+
+  - 'Heap':
+
+    - '1. Understanding Heaps using heapq in Python': 'notebooks/heap/understanding-heapq-in-python.ipynb'
+    - '2. Binary Heap using heapq': 'notebooks/heap/binary-heap-using-heapq.ipynb'
+    - '3. Binary Heap implementation using Python List': 'notebooks/heap/binary-heap.ipynb'
+    - '4. Max Heap': 'notebooks/heap/max-heap.ipynb'
+    - '5. Min Heap': 'notebooks/heap/min-heap.ipynb'
+
+  - 'Disjoint Set Union Find':
+    - '1. Disjoint Set Union Find Naive': 'notebooks/disjoint-set-union-find/disjoint-set-union-find-implementation.ipynb'
+    - '2. Disjoint Set Union Find Optimized': 'notebooks/disjoint-set-union-find/disjoint-set-union-find-implementation-optimized.ipynb'
+
+  - 'Graph': 
+    - '1. Graph representation using Adjacency Matrix': 'notebooks/graph/graph-representation-using-adjacency-matrix.ipynb'
+    - '2. Graph representation using Adjacency List': 'notebooks/graph/graph-representation-using-adjacency-list.ipynb'
+    - '3. Graph Traversals': 'notebooks/graph/graph-traversal.ipynb'
+    - '4. Types of edges in graph using DFS': 'notebooks/graph/types-of-edges-in-dfs.ipynb'
+    - '5. Detect cycle in directed graph using dfs': 'notebooks/graph/detect-cycle-in-directed-graph-using-dfs.ipynb'
+    - '6. Detect cycle in undirected graph using bfs': 'notebooks/graph/detect-cycle-in-undirected-graph-using-bfs.ipynb'
+    - '7. Detect cycle in undirected graph using dfs': 'notebooks/graph/detect-cycle-in-undirected-graph-using-dfs.ipynb'
+    - '8. Detect cycle in undirected graph using disjoint set': 'notebooks/graph/detect-cycle-in-undirected-graph-using-disjoint-set.ipynb'
+    - '9. Minimum Spanning Tree using Kruskals Algorithm': 'notebooks/graph/minimum-spanning-tree-using-kruskals-algorithm.ipynb'
+    - '10. Minimum Spanning Tree using Prims Algorithm': 'notebooks/graph/minimum-spanning-tree-using-prims-algorithm.ipynb'
+    - '11. Minimum Spanning Tree using Prims Algorithm using Priority Queue': 'notebooks/graph/mst-using-prims-algorithm-and-priority-queue.ipynb'
+    - '12. Topological Sorting': 'notebooks/graph/topological-sorting.ipynb'
+    - '13. Topological Sorting using Kahns Algorithm': 'notebooks/graph/topological-sorting-using-kahns-algorithm.ipynb'
+    - '14. Connected Components': 'notebooks/graph/connected-components.ipynb'
+    - '15. Bridges in graph': 'notebooks/graph/bridges-in-graph.ipynb'
+    - '16. Articulation point in graph': 'notebooks/graph/articulation-point-in-graph-using-tarjans-algorithm.ipynb'
+    - '17. Dijkstras Single Source Shortest Path Algorithm Naive implementation': 'notebooks/graph/dijkstras-single-source-shortest-path-algorithm-brute-force.ipynb'
+
+  - 'Searching Algorithms':
+    # - '1. Linear Search': 
+    - '2. Binary Search': 'notebooks/searching-algorithms/binary-search.ipynb'
+
+  - 'Sorting Algorithms': 
+    - '1. Insertion Sort': 'notebooks/sorting-algorithms/insertion-sort.ipynb'
+    - '2. Selection Sort': 'notebooks/sorting-algorithms/selection-sort.ipynb'
+    - '3. Bubble Sort': 'notebooks/sorting-algorithms/bubble-sort.ipynb'
+    - '4. Merge Sort': 'notebooks/sorting-algorithms/merge-sort.ipynb'
+    - '5. Quick Sort': 'notebooks/sorting-algorithms/quick-sort.ipynb'
+
   - 'Recursion':
-    - 'Bubble Sort': 'notebooks/recursion/bubble-sort.ipynb' 
+
+    - '0. Recursion overview/template': 'notebooks/recursion/recursion.ipynb'
+    - '1. Factorial': 'notebooks/recursion/factorial.ipynb'
+    - '2. Power of 2': 'notebooks/recursion/power-of-2.ipynb'
+    - '3. Print Count': 'notebooks/recursion/print-count.ipynb'
+    - '4. Say Digit': 'notebooks/recursion/say-digit.ipynb'
+    - '5. Fibonacci Number': 'notebooks/recursion/fibonacci-number.ipynb'
+    - '6. Bubble Sort': 'notebooks/recursion/bubble-sort.ipynb' 
+
+  - 'Dynamic Programming':
+
+    - '1. Fibonacci Series': 'notebooks/dynamic-programming/fibonacci-series.ipynb'
+    - '2. Nth Stairs': 'notebooks/dynamic-programming/nth-stairs.ipynb'
+    - '3. Minimum Cost climbing stairs': 'notebooks/dynamic-programming/min-cost-climbing-stairs.ipynb'
+    - '4. Coin change': 'notebooks/dynamic-programming/coin-change.ipynb'
