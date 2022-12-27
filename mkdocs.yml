@@ -143,7 +143,8 @@ nav:
     - '3. Print Count': 'notebooks/recursion/print-count.ipynb'
     - '4. Say Digit': 'notebooks/recursion/say-digit.ipynb'
     - '5. Fibonacci Number': 'notebooks/recursion/fibonacci-number.ipynb'
-    - '6. Bubble Sort': 'notebooks/recursion/bubble-sort.ipynb' 
+    - '6. Bubble Sort': 'notebooks/recursion/bubble-sort.ipynb'
+    - '7. Selection Sort': 'notebooks/recursion/selection-sort.ipynb' 
 
   - 'Dynamic Programming':
 
