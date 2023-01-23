@@ -52,6 +52,7 @@ plugins:
 
 nav:
   - Home: 'index.md'
+  - Topics: 'topics.md'
 
   - 'Linked List':
   
@@ -149,5 +150,5 @@ nav:
 
     - '1. Fibonacci Series': 'notebooks/dynamic-programming/fibonacci-series.ipynb'
     - '2. Nth Stairs': 'notebooks/dynamic-programming/nth-stairs.ipynb'
-    - '3. Minimum Cost climbing stairs': 'notebooks/dynamic-programming/min-cost-climbing-stairs.ipynb'
+    - '3. Minimum Cost climbing stairs': 'notebooks/dynamic-programming/minimum-cost-climbing-stairs.ipynb'
     - '4. Coin change': 'notebooks/dynamic-programming/coin-change.ipynb'
