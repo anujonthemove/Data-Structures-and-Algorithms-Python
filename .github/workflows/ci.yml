@@ -35,7 +35,8 @@ jobs:
       # - run: cp -r notebooks/recursion/bubble-sort.ipynb docs/
       # - run: cp -r notebooks/recursion/* docs/notebooks/
       - run: cp -r notebooks/* docs/notebooks/
-      - run: cp README.md docs/index.md
+      # - run: cp README.md docs/index.md
+      # - run: cp README.md docs/topics.md
       # - run: mkdocs gh-deploy --force
       - run: mkdocs gh-deploy --force --clean --verbose
     env:
