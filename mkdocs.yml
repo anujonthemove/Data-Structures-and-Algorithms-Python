@@ -52,7 +52,11 @@ plugins:
 
 nav:
   - Home: 'index.md'
+  - Roadmap: 'roadmap.md'
+  - Resources: 'resources.md'
+  - FAQs: 'faqs.md'
   - Topics: 'topics.md'
+  
 
   - 'Linked List':
   
