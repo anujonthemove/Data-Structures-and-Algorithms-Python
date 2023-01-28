@@ -1,11 +1,14 @@
-# Data Structures & Algorithms
+# 🏭 Data Structures & Algorithms
 <a href="https://anujonthemove.github.io/Data-Structures-and-Algorithms-Python/">
   <img src="https://raw.githubusercontent.com/anujonthemove/Data-Structures-and-Algorithms-Python/main/assets/images/dsa.png" width=900 alt="Data Structure and Algorithms in Python cover photo with different sections">
 </a>
 
 
+## 🌎 Website
 
-## Data Structures
+* Find all the codes in a searchable page at https://anujonthemove.github.io/Data-Structures-and-Algorithms-Python/.
+
+## 😄 Data Structures
 
 | Sr.No | Name           |
 |------:|----------------|
@@ -22,9 +25,9 @@
 |      11|Graphs              |
 
 
-## Algorithms
+## 😃 Algorithms
 
-### Searching
+### 👉 Searching
 
 | Sr.No | Name           |
 |------:|----------------|
@@ -32,7 +35,7 @@
 |   2   |Binary Search   |
 
 
-### Sorting
+### 👉 Sorting
 
 | Sr.No | Name           |
 |------:|----------------|
@@ -45,11 +48,11 @@
 |      7|Tim Sort        |
 
 
-## Algorithmic Paradigms
+## 🤩 Algorithmic Paradigms
 
 | Sr.No | Name              |
 |------:|-------------------|
-|      1|  Brute Force      |
+|      1| Brute Force      |
 |      2| Greedy            |
 |      3| Divide & Conquer  |
 |      4|Dynamic Programming|
@@ -57,7 +60,7 @@
 |      6|Branch & Bound     |
 
 
-# Resources
+# 🚀 Resources
 
 #### 💥 DSA Practice Question Tracker
 
