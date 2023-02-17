@@ -17,11 +17,26 @@ theme:
     # - navigation.sections
     # - navigation.expand
 
+  icon:
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: octicons/zap-24
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+
   palette:
-    primary: yellow
-    # accent: indigo
+  #   primary: yellow
+    accent: indigo
   font:
-    text: Roboto Mono
+    text: Ubuntu
 
     # # Palette toggle for light mode
     # - scheme: default
@@ -36,6 +51,14 @@ theme:
     #     name: Switch to light mode
 
 
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
+
 markdown_extensions:
   - meta
   - pymdownx.highlight
@@ -45,6 +68,33 @@ markdown_extensions:
   - pymdownx.magiclink
   - pymdownx.snippets:
       # base_path: docs/snippets
+  - def_list
+  
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+  - attr_list
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  # The BetterEm extension improves the detection of Markup to emphasize text in Markdown using special characters
+  - pymdownx.betterem
+  - pymdownx.arithmatex:
+      generic: true
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
 
 plugins:
   - mkdocs-jupyter:
